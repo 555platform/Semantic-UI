@@ -14,7 +14,8 @@
     "url": "https://github.com/555platform/Semantic-UI-555/issues"
   },
   "scripts": {
-    "install": "gulp install"
+    "install": "gulp install",
+    "preinstall": "npx npm-force-resolutions"
   },
   "peerDependencies": {
     "better-console": "*",
