@@ -100,5 +100,8 @@
     "not IE 11",
     "not IE_Mob 11",
     "maintained node versions"
-  ]
+  ],
+  "resolutions": {
+    "graceful-fs": "4.2.4"
+  }
 }
