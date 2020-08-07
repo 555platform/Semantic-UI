@@ -1,5 +1,5 @@
 {
-  "name": "semantic-ui",
+  "name": "semantic-ui-555",
   "version": "2.4.2",
   "title": "Semantic UI",
   "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
@@ -8,10 +8,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Semantic-Org/Semantic-UI.git"
+    "url": "git://github.com/555platform/Semantic-UI-555"
   },
   "bugs": {
-    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
+    "url": "https://github.com/555platform/Semantic-UI-555/issues"
   },
   "scripts": {
     "install": "gulp install"
