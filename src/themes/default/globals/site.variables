@@ -6,14 +6,14 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Lato';
+@fontName          : 'XfinityStandard';
 @fontSmoothing     : antialiased;
 
 @headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
 @googleFontName    : @fontName;
-@importGoogleFonts : true;
+@importGoogleFonts : false;
 @googleFontSizes   : '400,700,400italic,700italic';
 @googleSubset      : 'latin';
 
@@ -44,8 +44,8 @@
 */
 @relativeBorderRadius: @relative4px;
 @absoluteBorderRadius: @4px;
-
 @defaultBorderRadius: @absoluteBorderRadius;
+@buttonBorderRadius: 24px;
 
 /*-------------------
     Brand Colors
@@ -220,19 +220,20 @@
 --------------------*/
 
 /*---  Colors  ---*/
-@red              : #DB2828;
-@orange           : #F2711C;
-@yellow           : #FBBD08;
-@olive            : #B5CC18;
-@green            : #21BA45;
-@teal             : #00B5AD;
-@blue             : #2185D0;
-@violet           : #6435C9;
-@purple           : #A333C8;
-@pink             : #E03997;
-@brown            : #A5673F;
-@grey             : #767676;
-@black            : #1B1C1D;
+
+@red              : #c90318; /*--Red Cherry--*/
+@orange           : #ffa700; /*--Yellow Pumpkin--*/
+@yellow           : #fece00; /*--Yellow Banana--*/
+@olive            : #5bc942; /*--Green Lime--*/
+@green            : #65d0a7; /*--Minty--*/
+@teal             : #1ee2c9; /*--Green Tea--*/
+@blue             : #0272b6; /*--Blue Sky--*/
+@violet           : #7155d3; /*--Reign--*/
+@purple           : #7155d3; /*--Reign--*/
+@pink             : #bc43d3; /*--Bramble--*/
+@brown            : #A5673F; 
+@grey             : #6c747c; /*--Cool Grey 8--*/
+@black            : #051219; /*--Blue Knight--*/
 
 /*---  Light Colors  ---*/
 @lightRed         : #FF695E;
@@ -257,14 +258,14 @@
 @white            : #FFFFFF;
 
 /*--- Colored Backgrounds ---*/
-@redBackground    : #FFE8E6;
-@orangeBackground : #FFEDDE;
-@yellowBackground : #FFF8DB;
-@oliveBackground  : #FBFDEF;
-@greenBackground  : #E5F9E7;
-@tealBackground   : #E1F7F7;
-@blueBackground   : #DFF0FF;
-@violetBackground : #EAE7FF;
+@redBackground    : #c90318;
+@orangeBackground : #ffa700;
+@yellowBackground : #fece00;
+@oliveBackground  : #5bc942;
+@greenBackground  : #65d0a7;
+@tealBackground   : #1ee2c9;
+@blueBackground   : #0272b6;
+@violetBackground : #7155d3;
 @purpleBackground : #F6E7FF;
 @pinkBackground   : #FFE3FB;
 @brownBackground  : #F1E2D3;
@@ -361,14 +362,14 @@
 @negativeTextColor       : #9F3A38;
 
 /* Info */
-@infoColor              : #31CCEC;
+@infoColor              : @blue;
 @infoBackgroundColor    : #F8FFFF;
 @infoBorderColor        : #A9D5DE;
 @infoHeaderColor        : #0E566C;
 @infoTextColor          : #276F86;
 
 /* Warning */
-@warningColor           : #F2C037;
+@warningColor           : @orange;
 @warningBorderColor     : #C9BA9B;
 @warningBackgroundColor : #FFFAF3;
 @warningHeaderColor     : #794B02;

@@ -16,17 +16,17 @@
 
 /* Button defaults to using same height as input globally */
 @verticalPadding: @inputVerticalPadding;
-@horizontalPadding: 1.5em;
+@horizontalPadding: 30px;
 
 /* Text */
 @textTransform: none;
 @tapColor: transparent;
 @fontFamily: @pageFont;
-@fontWeight: @bold;
+@fontWeight: @normal;
 @textColor: rgba(0, 0, 0, 0.6);
 @textShadow: none;
 @invertedTextShadow: @textShadow;
-@borderRadius: @defaultBorderRadius;
+@borderRadius: @buttonBorderRadius;
 @verticalAlign: baseline;
 
 /* Internal Shadow */
@@ -185,14 +185,14 @@
 
 
 /* Inverted */
-@invertedBorderSize: 2px;
+@invertedBorderSize: 1px;
 @invertedTextColor: @white;
 @invertedTextHoverColor: @hoverColor;
 @invertedGroupButtonOffset: 0px 0px 0px -(@invertedBorderSize);
 @invertedVerticalGroupButtonOffset: 0px 0px -(@invertedBorderSize) 0px;
 
 /* Basic */
-@basicBorderRadius: @borderRadius;
+@basicBorderRadius: @buttonBorderRadius;
 @basicBorderSize: 1px;
 @basicTextColor: @textColor;
 @basicColoredBorderSize: 1px;

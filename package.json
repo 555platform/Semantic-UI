@@ -94,5 +94,11 @@
     "gulp-tap": "*",
     "merge-stream": "*"
   },
-  "style": "dist/semantic.css"
+  "style": "dist/semantic.css",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ]
 }
