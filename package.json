@@ -14,8 +14,7 @@
     "url": "https://github.com/555platform/Semantic-UI-555/issues"
   },
   "scripts": {
-    "install": "gulp install",
-    "preinstall": "npx npm-force-resolutions"
+    "install": "gulp install"
   },
   "peerDependencies": {
     "better-console": "*",
@@ -101,8 +100,5 @@
     "not IE 11",
     "not IE_Mob 11",
     "maintained node versions"
-  ],
-  "resolutions": {
-    "graceful-fs": "4.2.4"
-  }
+  ]
 }
